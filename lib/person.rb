@@ -1,12 +1,12 @@
 def Person 
-    def name=(person_name) 
-        @name = person_name 
+    def name=(name) 
+        @name = name 
     end 
     def name 
         @name 
     end 
-    def job=(person_job) 
-        @job = person_job 
+    def job=(job) 
+        @job = job 
     end 
     def job 
         @job 
